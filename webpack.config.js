@@ -33,6 +33,7 @@ module.exports = {
                     'autoimport?config[]=checkIfUsed&' + [
                         'React=>react',
                         'ReactDOM=react-dom',
+                        '$=jquery',
                         '_=lodash',
                         'classnames'
                     ].join(','),

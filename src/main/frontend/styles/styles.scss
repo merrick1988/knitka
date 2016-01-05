@@ -2,9 +2,13 @@
 
 body,
 html{
-  background: $color-white;
+  background: $color-gray;
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+}
+
+main{
+  padding: 20px;
 }

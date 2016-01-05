@@ -1,7 +1,5 @@
 package ua.com.knitka.service;
 
-import ua.com.knitka.service.CustomerResourceService;
-
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 import java.util.HashSet;
@@ -14,7 +12,7 @@ public class KnittingApplication extends Application {
     private Set<Class<?>> empty = new HashSet<Class<?>>();
 
     public KnittingApplication() {
-        singletons.add(new CustomerResourceService());
+        singletons.add(new ContactsResourceService());
     }
 
     @Override

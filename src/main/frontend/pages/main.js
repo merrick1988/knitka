@@ -1,10 +1,13 @@
-import Customer from 'components/customer';
+import Header from 'components/header/header';
 
 class Main extends React.Component {
     render () {
         return (
             <div>
-                <Customer/>
+                <Header/>
+                <main>
+                    {this.props.children}
+                </main>
             </div>
         );
     }

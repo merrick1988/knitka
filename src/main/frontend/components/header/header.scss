@@ -23,6 +23,7 @@ header{
 
     &:hover{
       text-decoration: underline;
+      cursor: pointer;
     }
 
     &[href^="tel"] {
@@ -37,5 +38,30 @@ header{
         margin-right: 5px;
       }
     }
+  }
+}
+
+.header__logo{
+  padding: 10px;
+  text-align: center;
+  background: $color-white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  a{
+    display: inline-block;
+  }
+  svg{
+    width: 60px;
+    fill: $color-red;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  h1{
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    vertical-align: middle;
+    color: $color-green;
+    font-size: 42px;
+    line-height: 60px;
+    margin: 0 0 0 10px;
   }
 }
